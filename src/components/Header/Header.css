@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    height: 36px;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 36px;
+}
