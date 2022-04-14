@@ -12,8 +12,8 @@ const Products = ({product, handleAddToCart}) => {
             <img src={img} alt="" />
             <h5 className='product-name'>{name}</h5>
             <p className='product-price'>Price: ${price}</p>
-            <p>{seller}</p>
-            <small>{ratings}</small>
+            <p> Brand: {seller}</p>
+            <small>Ratings: {ratings}</small>
             
             <button onClick={ () => handleAddToCart(product)} className='btn-cart'> <p className='cart-name'>Add To Cart</p>
             <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
